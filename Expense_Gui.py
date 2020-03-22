@@ -6,6 +6,7 @@ import PySimpleGUI as sg
 import matplotlib.pyplot as plt
 
 # Application path
+# for mac os and windows is different i don't know why
 if platform.system() == "Windows":
     myPath = os.path.dirname(__file__) + "\\"
     DBPath = myPath + "Data.db"
