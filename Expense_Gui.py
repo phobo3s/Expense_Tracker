@@ -56,7 +56,7 @@ def Main():
         elif menuSelection == "2":
             DBMenu(conn)
         elif menuSelection == "3":
-            #data = DrawGraph(conn)
+            data = DrawGraph(conn)
             DrawGraph(data)
         elif menuSelection == "0":
             CloseDatabase(conn)

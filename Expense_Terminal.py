@@ -2,7 +2,7 @@ import sqlite3
 import os
 import time
 from prettytable import PrettyTable
-import PySimpleGUI as sg
+#import PySimpleGUI as sg
 
 # Application path
 myPath = os.path.dirname(__file__) + "/"
